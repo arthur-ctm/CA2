@@ -4,15 +4,25 @@ I am using the same project as CA1 (this is way it is the same djangoproject nam
 
 # Developing process 
 
-Create login, sign-in, logout, and change password views: Create views for login, sign-in, logout, and change password operations in the app's views.py file.
+- Define the requirements: Start by defining the requirements for the application. This involves determining the features and functionality needed, such as creating, reading, updating, and deleting records for both cars and drivers, and creating a user interface to display and interact with the data.
 
-Define URL patterns for authentication views: Define URL patterns for the authentication views in the app's urls.py file.
+- Create the Django project: Create a new Django project using the django-admin startproject command. This will create a new project directory and some initial files.
 
-Create templates for authentication views: Create HTML templates for the authentication views.
+- Set up the database: Set up the database configuration in the settings.py file and create the necessary models for cars and drivers.
 
-Add authentication middleware: Add authentication middleware to the project's settings.py file.
+- Create views and templates: Create views to handle requests from the user interface, and templates to display the data in a user-friendly way. These views will include functions to perform CRUD operations on the database.
 
-Add login and logout URLs to your navigation menu: Add links to the login and logout views in your app's navigation menu.
+- Define URLs: Define URLs for the different views so that users can navigate to the appropriate pages.
+
+- Create login, sign-in, logout, and change password views: Create views for login, sign-in, logout, and change password operations in the app's views.py file.
+
+- Define URL patterns for authentication views: Define URL patterns for the authentication views in the app's urls.py file.
+
+- Create templates for authentication views: Create HTML templates for the authentication views.
+
+- Add authentication middleware: Add authentication middleware to the project's settings.py file.
+
+- Add login and logout URLs to your navigation menu: Add links to the login and logout views in your app's navigation menu.
 
 I didn't use the email sent system because it didn't work for me. If you want to change your password you have to go to your profile and click on "Change password".
 
